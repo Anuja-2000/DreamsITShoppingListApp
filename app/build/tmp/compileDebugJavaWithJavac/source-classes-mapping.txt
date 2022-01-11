@@ -1,0 +1,15 @@
+com/example/shoppinglistapplication/BuildConfig.java
+ com.example.shoppinglistapplication.BuildConfig
+com/example/shoppinglistapplication/MainActivity.java
+ com.example.shoppinglistapplication.MainActivity
+com/example/shoppinglistapplication/SignInActivity.java
+ com.example.shoppinglistapplication.SignInActivity
+ com.example.shoppinglistapplication.SignInActivity$1
+com/example/shoppinglistapplication/SplashActivity.java
+ com.example.shoppinglistapplication.SplashActivity
+ com.example.shoppinglistapplication.SplashActivity$1
+com/example/shoppinglistapplication/SignUpActivity.java
+ com.example.shoppinglistapplication.SignUpActivity
+ com.example.shoppinglistapplication.SignUpActivity$1
+ com.example.shoppinglistapplication.SignUpActivity$2
+ com.example.shoppinglistapplication.SignUpActivity$3
