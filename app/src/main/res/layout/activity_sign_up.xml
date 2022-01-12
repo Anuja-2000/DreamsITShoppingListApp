@@ -38,17 +38,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Username"
-            android:textColor="#104E05"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Email"
+            android:textColor="#104E05"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/edt_username"
+            android:id="@+id/edt_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -129,7 +129,6 @@
         app:layout_constraintTop_toBottomOf="@+id/linear_layout1">
 
         <TextView
-            android:id="@+id/tv_sign_in"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical|center_horizontal"
@@ -145,8 +144,9 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
+        android:id="@+id/tv_sign_in"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:text="Already have an account ? SignIn"
         android:layout_marginTop="10dp"
         android:textSize="17dp"
